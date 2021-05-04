@@ -1,0 +1,16 @@
+.card {
+  padding: 5px 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ececec;
+  margin-bottom: 2em;
+}
+
+.card:hover {
+  cursor: pointer;
+  border-color: blue;
+}
+
+// .cardTitle {
+//   font-size: 22px;
+// }

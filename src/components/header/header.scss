@@ -1,0 +1,41 @@
+header {
+  background-color: #ececec;
+  display: flex;
+  padding: 20px;
+
+  .titleContainer {
+    flex: 1;
+  }
+
+  .title {
+    margin-left: 60px;
+    display: inline;
+    font-size: 40px;
+    font-weight: light;
+  }
+
+  .title:hover {
+    cursor: pointer;
+  }
+
+  .navlinks {
+    margin-right: 20px;
+  }
+
+  ul {
+    display: inline;
+    flex: 1;
+    margin: 20px;
+    font-size: 20px;
+    float: left;
+
+    a:hover {
+      color: blue;
+    }
+  }
+
+  .listItem {
+    display: inline;
+    margin: 20px;
+  }
+}
